@@ -9,9 +9,7 @@
  1. JSValue: 代表一个JavaScript实体，一个JSValue可以表示很多JavaScript原始类型例如boolean, integers, doubles，甚至包括对象和函数。
  2. JSContext: 代表JavaScript的运行环境，你需要用JSContext来执行JavaScript代码。所有的JSValue都是捆绑在一个JSContext上的。
  2. JSExport: 这是一个协议，可以用这个协议来将原生对象导出给JavaScript，这样原生对象的属性或方法就成为了JavaScript的属性或方法，非常神奇。
- 
- 原文链接：http://www.jianshu.com/p/59242a92d4f2
- 著作权归作者所有，转载请联系作者获得授权，并标注“简书作者”。*/
+ */
 import UIKit
 import JavaScriptCore
 
