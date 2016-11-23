@@ -1,0 +1,71 @@
+body{
+    height: 100%;
+}
+html{
+    height: 100%;
+}
+.logo_sign{
+    margin: 0.05rem auto;
+}
+.logo_sign img{
+    padding: 0 0.1rem;
+    width: 40%;
+    height: auto;
+}
+.icon_sign{
+    margin: 0.2rem auto;
+    padding: 0 1.2rem;
+}
+.icon_sign img{
+    width: 100%;
+}
+.input_sign{
+    margin: 1rem auto;
+    padding:0 1.2rem;
+}
+.input_bg{
+    background-color: #Fef9d5;
+    width: 100%;
+    margin: 0.1rem auto;
+    border-radius: 0.05rem;
+
+}
+.input_bg h3{
+    display: inline-block;
+    font-size: 0.36rem;
+    font-weight: 700;
+    color: #F08300;
+    margin: 0 0.1rem;
+    vertical-align: middle;
+}
+.input_bg input,input:active{
+    width: 75%;
+    height: 0.7rem;
+    font-size: 0.2rem;
+    vertical-align: middle;
+    border-style: none;
+    vertical-align: middle;
+    background-color: transparent;
+
+}
+.input_bg button{
+    vertical-align: middle;
+    width: 80px;
+    height: 40px;
+    font-size: 0.36rem;
+    font-weight: 700;
+    color: #F08300;
+    margin: 0.1rem auto;
+    border-radius: 0.3rem;
+    border-width: 1px;
+    border-color: #F08300;
+    background-color: white;
+    display: block;
+}
+#btn{
+    background-color: transparent;
+    margin: 0.3rem auto;
+}
+*:focus{
+    outline: none;
+}
