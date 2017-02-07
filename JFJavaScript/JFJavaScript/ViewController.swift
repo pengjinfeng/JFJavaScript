@@ -23,7 +23,7 @@ class ViewController: UIViewController,UIWebViewDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.web.delegate = self
-        let url = Bundle.main.url(forResource: "index", withExtension: "html")
+        let url = Bundle.main.url(forResource: "index00", withExtension: "html")
         let request = URLRequest(url: url!)
         
         // 加载网络Html页面 请设置允许Http请求
